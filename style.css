@@ -1,10 +1,9 @@
-/* Universal Selector */
+
 * {
     margin:0;
     padding:0;  
   }
-  
-  /* Element Selectors */
+
   body {
     position: relative;
     font-family: "Goudy Bookletter 1911", sans-serif;
@@ -26,11 +25,12 @@
     display: inline;
     padding: 0px 20px;
     text-decoration: none;
+    font-weight:bold ;
   }
   
   a {
     text-decoration: none;
-    color: #110e0c;
+    color: #0e0c0c;
   }
   
   header,
@@ -38,7 +38,7 @@
     height: 60px;
     width: 100%;
     line-height: 60px;
-    background-color: #818fa1;
+    background-color: #53657e;
   }
   
   header {
@@ -50,31 +50,32 @@
     position: absolute;
     margin-top: 15px;
     bottom: 15px;
-    border-bottom: 10px solid #343572;
+    border-bottom: 10px solid #080808;
     color: #1a1513;    
   }
   
   figure {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
-  
+ 
   img {
     display: block;
     margin: 20px auto;
+    /* This image is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. */
   }
   
   section {
     margin-bottom: 0;
     padding: 20px 10px 40px 10px;
-    border-top: 3px solid #DDAF94;
+    border-top: 3px solid #816a5d;
     background-color:  #47466b;
   }
   
-  form {
-    /* Center the form on the page */
+form {
+
     margin: 0 auto;
     width: 500px;
-    padding: 10px;
+    padding: 10px 40px 60px;
     border: 5px solid #627a96;
     border-radius: 20px;
   }
@@ -88,7 +89,7 @@
   textarea {
     box-sizing: border-box;
     width: 300px;
-    border: 1px solid #4F4846;
+    border: 1px solid #111010;
   }
   
   textarea {
@@ -99,11 +100,11 @@
   button {
     height: 40px;
     width: 120px;
-    background-color: #362f2c;
+    background-color: #85736b;
     color: #FDF8F5;
   }
    
-  /* Class Selectors */
+
   .text-center {
     text-align: center;
   }
